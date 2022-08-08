@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'InfinitySans-RegularA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "Noto Sans KR", "Helvetica Neue", "Helvetica", "Malgun Gothic", sans-serif !important;
+}
+
+
+
+.nav-item {
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.aside {
+    width: 15vw;
+    height: 100vh;
+    border-right: 1px solid gray;
+    position: fixed;
+    top: 70px;
+    background-color: white;
+}
+
+.main_box {
+
+    margin-left: 15vw;
+    margin-top: 70px;
+    width: 85vw;
+    border: 1px solid darkblue;
+
+
+}
+
+p {
+    font-size: 1000px;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+
+.accordion-button:focus,
+.accordion-button:visited,
+.btn-answer:active {
+    background-color: white;
+
+}

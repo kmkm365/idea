@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'InfinitySans-RegularA1';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/InfinitySans-RegularA1.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: "Noto Sans KR", "Helvetica Neue", "Helvetica", "Malgun Gothic", sans-serif !important;
+}
+
+.nav-item {
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-size: 30px;
+}
+
+#search {
+    border: 1.5px solid rgb(88, 88, 88);
+    width: 60%;
+    margin: 10px;
+    background-image: url('search .png');
+    background-repeat: no-repeat;
+    background-size: 30px;
+    text-align: center;
+    border-radius: 5px;
+
+}
+
+#search::placeholder {
+    text-align: center;
+}
+
+.mainBox {
+
+    text-align: center;
+    padding-top: 8%;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 40px;
+    padding: 20px;
+}
